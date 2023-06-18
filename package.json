@@ -1,0 +1,33 @@
+{
+  "name": "seo-sitemap-generator",
+  "version": "1.0.0",
+  "description": "Generate XML sitemaps for websites, helping search engines discover and index pages efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonhimpfen/seo-sitemap-generator.git"
+  },
+  "keywords": [
+    "seo",
+    "sitemap",
+    "xml",
+    "generator"
+  ],
+  "author": "Brandon Himpfen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/seo-sitemap-generator/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/seo-sitemap-generator#readme",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "esprima": "^4.0.1",
+    "js-yaml": "^3.14.1",
+    "sprintf-js": "^1.0.3",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {}
+}
